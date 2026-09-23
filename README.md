@@ -1,4 +1,4 @@
-# Novutera Portfolio
+# FuturnAI Portfolio
 
 Personal portfolio website showcasing my work as a Full-Stack Developer and AI Engineer, with a focus on AI-powered systems, Arabic NLP, and scalable backend architecture.
 
@@ -21,7 +21,7 @@ A single-page portfolio built with plain HTML, CSS, and JavaScript — no framew
 |---|---|---|
 | **SolarAI** | Real-time multi-agent AI system for detecting and diagnosing faults in commercial solar PV installations | Python, FastAPI, React, TensorFlow, LangGraph, PostgreSQL, Gemini API |
 | **SportsTrends** | Arabic sports news & YouTube trend analysis with an AI-driven prediction engine | FastAPI, AraBERT, CAMeL Tools, React, PyTorch, Gemini API |
-| **منصة دروس (Dourouss)** | School management & e-learning platform with student, teacher, and admin portals | Next.js, Flask, PostgreSQL, Python |
+| **منصة للدروس** | School management & e-learning platform with student, teacher, and admin portals | Next.js, Flask, PostgreSQL, Python |
 | **Herfty** | E-commerce backend connecting Algerian artisan vendors with customers | Spring Boot, Spring Security, MySQL, Java |
 | **E-Learning Platform** | Server-rendered course management system with admin/instructor control | Spring Boot, Thymeleaf, MySQL, Java |
 
@@ -44,7 +44,7 @@ portfolio/
 ├── index.html              # Page markup
 ├── style.css                # All styles
 ├── script.js                 # Nav, sliders, lightbox, reveal animations, contact form
-├── novutera.png              # Logo 
+├── futurnai.png              # Logo 
 ├── icons/
 │   └── ...
 ├── Screenshots/               # Project screenshots used in the sliders
@@ -58,4 +58,4 @@ This project is personal portfolio code. Feel free to reference the structure, b
 
 ## Contact
 
-**Novutera** — [novutera.pro@email.com](mailto:novutera.pro@email.com) · [github.com/novuterapro](https://github.com/novuterapro)
+**FuturnAI** — [futurnai.pro@email.com](mailto:futurnai.pro@gmail.com) · [github.com/futurnaipro](https://github.com/futurnaipro)
