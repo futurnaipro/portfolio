@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Novutera — Building intelligent software, end to end</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <span class="nav__logo">
+        <img src="novutera.png" alt="Novutera" class="nav__logo-img"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block'"/>
+        <span class="nav__logo-text" style="display:none">Novutera</span>
+      </span>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav__cta">Let's talk</a>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow"><span class="dot"></span>Full-Stack Developer · AI Engineer</p>
+        <h1 class="hero__name">Novutera<em>Building intelligent<br/>software, end to end.</em></h1>
+        <p class="hero__bio">A Software Engineering graduate with a Master's in Data Science and Artificial Intelligence — building things from the ground up. From training machine learning models to production-ready APIs and user-facing dashboards, every project is driven by a single principle: make systems both intelligent and deployable.</p>
+        <div class="hero__actions">
+  <a href="#projects" class="btn btn--primary">
+    <img src="icons/folder.svg" alt="View work" style="width:24px;height:24px;margin-right:3px;vertical-align:middle" />
+    View work
+  </a>
+</div>
+        <div class="hero__meta">
+          <span class="hero__meta-item"><i data-lucide="map-pin" style="width:13px;height:13px"></i>Algeria</span>
+          <span class="hero__meta-item"><i data-lucide="graduation-cap" style="width:13px;height:13px"></i>M.Sc. Data Science & AI</span>
+          <span class="hero__meta-item"><i data-lucide="car" style="width:13px;height:13px"></i>Driving Licence B</span>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__illustration">
+          <img src="icons/Team Coding 4.png" alt="Novutera"
+            onerror="this.parentElement.classList.add('hero__illustration--fallback');this.style.display='none'"/>
+          <div class="hero__illustration-fallback">
+            <div class="fallback-circle c1"></div>
+            <div class="fallback-circle c2"></div>
+            <div class="fallback-circle c3"></div>
+            <span class="fallback-n">N</span>
+          </div>
+        </div>
+        <div class="hero__card">
+          <div class="hero__card-line"><span class="mono">status</span><span class="tag tag--green"><span class="tag__dot"></span>Open to work</span></div>
+          <div class="hero__card-line"><span class="mono">focus</span><span>AI · Full-Stack · Backend</span></div>
+          <div class="hero__card-line"><span class="mono">stack</span><span>Python · React · Java</span></div>
+          <div class="hero__card-line"><span class="mono">languages</span><span>Arabic · French · English</span></div>
+        </div>
+        <div class="hero__stats">
+          <div class="stat"><span class="stat__num">3+</span><span class="stat__label">Years building</span></div>
+          <div class="stat"><span class="stat__num">5+</span><span class="stat__label">Projects shipped</span></div>
+          <div class="stat"><span class="stat__num">2</span><span class="stat__label">Degrees</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">What I work with</p>
+        <h2 class="section__title">Skills & Technologies</h2>
+      </div>
+<div class="skills__grid">
+  <!-- Languages -->
+  <div class="skill-card reveal">
+    <div class="skill-card__icon">
+      <img src="icons\code-02-stroke.svg" alt="Languages" style="width:30px;height:28px" />
+    </div>
+    <h3 class="skill-card__title">Languages</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Java</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">SQL</span>
+      <span class="skill-tag">PHP</span>
+    </div>
+  </div>
+
+  <!-- Frontend -->
+  <div class="skill-card reveal">
+    <div class="skill-card__icon">
+      <img src="icons/frontend.svg" alt="Frontend" style="width:30px;height:28px" />
+    </div>
+    <h3 class="skill-card__title">Frontend</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">React.js</span>
+      <span class="skill-tag">Next.js</span>
+      <span class="skill-tag">Tailwind CSS</span>
+      <span class="skill-tag">HTML · CSS</span>
+    </div>
+  </div>
+
+  <!-- Backend -->
+  <div class="skill-card reveal">
+    <div class="skill-card__icon">
+      <img src="icons/server.svg" alt="Backend" style="width:30px;height:28px" />
+    </div>
+    <h3 class="skill-card__title">Backend</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">FastAPI</span>
+      <span class="skill-tag">Spring Boot</span>
+      <span class="skill-tag">Laravel</span>
+      <span class="skill-tag">Flask</span>
+      <span class="skill-tag">RESTful APIs</span>
+    </div>
+  </div>
+
+  <!-- AI & Machine Learning -->
+  <div class="skill-card reveal">
+    <div class="skill-card__icon">
+      <img src="icons/ai.svg" alt="AI & Machine Learning" style="width:30px;height:28px" />
+    </div>
+    <h3 class="skill-card__title">AI &amp; Machine Learning</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">TensorFlow</span>
+      <span class="skill-tag">PyTorch</span>
+      <span class="skill-tag">Scikit-learn</span>
+      <span class="skill-tag">LangGraph</span>
+      <span class="skill-tag">AraBERT · NLP</span>
+      <span class="skill-tag">NumPy · Pandas</span>
+    </div>
+  </div>
+
+  <!-- Databases -->
+  <div class="skill-card reveal">
+    <div class="skill-card__icon">
+      <img src="icons/backend.svg" alt="Databases" style="width:30px;height:28px" />
+    </div>
+    <h3 class="skill-card__title">Databases</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">PostgreSQL</span>
+      <span class="skill-tag">MySQL</span>
+      <span class="skill-tag">MongoDB</span>
+    </div>
+  </div>
+
+  <!-- Tools -->
+  <div class="skill-card reveal">
+    <div class="skill-card__icon">
+      <img src="icons/tools.svg" alt="Tools" style="width:30px;height:28px" />
+    </div>
+    <h3 class="skill-card__title">Tools</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Postman</span>
+      <span class="skill-tag">Cisco Packet Tracer</span>
+      <span class="skill-tag">JavaFX</span>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Selected work</p>
+        <h2 class="section__title">Projects</h2>
+        <p class="section__desc">A selection of academic, personal, and professional projects — from AI pipelines to production platforms.</p>
+      </div>
+      <div class="projects__list">
+
+        <!-- SolarAI -->
+        <article class="project project--featured reveal">
+          <div class="project__content">
+            <div class="project__header">
+              <div>
+                <div class="project__badge"><i data-lucide="star" style="width:11px;height:11px"></i>Master's Thesis · Featured</div>
+                <h3 class="project__title">SolarAI</h3>
+                <p class="project__subtitle">Fault Detection & Diagnosis Platform</p>
+              </div>
+              <div class="project__links">
+  <div class="gh-dropdown">
+    <button class="btn btn--sm btn--ghost gh-dropdown__toggle" onclick="toggleGhDropdown(this)">
+      <img src="icons/github2.png" alt="GitHub" style="width:19px; height:19px; margin-right:2px; vertical-align:middle; display:inline-block;">
+      GitHub
+      <i data-lucide="chevron-down" style="width:14px;height:14px;margin-left:2px"></i>
+    </button>
+    <div class="gh-dropdown__panel">
+      <a href="https://github.com/novuterapro/SolarAI-Frontend" target="_blank" rel="noopener noreferrer" class="gh-dropdown__item">
+        <i data-lucide="layout-panel-left" style="width:15px;height:15px"></i>
+        <span>
+          <span class="gh-dropdown__item-title">Frontend</span>
+          <span class="gh-dropdown__item-sub">React repo</span>
+        </span>
+      </a>
+      <a href="https://github.com/novuterapro/SolarAI-Backend" target="_blank" rel="noopener noreferrer" class="gh-dropdown__item">
+        <i data-lucide="server" style="width:15px;height:15px"></i>
+        <span>
+          <span class="gh-dropdown__item-title">Backend</span>
+          <span class="gh-dropdown__item-sub">FastAPI repo</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+            </div>
+            <p class="project__desc">A real-time multi-agent AI system for detecting and diagnosing faults in commercial solar PV installations. Detects faults in under 10 seconds, classifies them across electrical and visual channels, and generates maintenance tickets automatically — no human monitoring required.</p>
+            <div class="project__achievements">
+              <div class="project__achievement"><span class="achievement__num">90.2%</span><span class="achievement__label">Anomaly F1</span></div>
+              <div class="project__achievement"><span class="achievement__num">98.7%</span><span class="achievement__label">Classification accuracy</span></div>
+              <div class="project__achievement"><span class="achievement__num">&lt;10s</span><span class="achievement__label">Fault to alert</span></div>
+              <div class="project__achievement"><span class="achievement__num">3</span><span class="achievement__label">AI models</span></div>
+            </div>
+            <div class="project__role-line"><i data-lucide="user" style="width:13px;height:13px"></i><span>AI, Backend & Frontend Developer</span></div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span><span class="skill-tag">FastAPI</span><span class="skill-tag">React</span>
+              <span class="skill-tag">TensorFlow</span><span class="skill-tag">LangGraph</span>
+              <span class="skill-tag">PostgreSQL</span><span class="skill-tag">Gemini API</span>
+            </div>
+          </div>
+          <div class="project__screenshot">
+            <div class="screenshot-frame">
+              <div class="screenshot-bar">
+                <div class="screenshot-dots"><span></span><span></span><span></span></div>
+                <span class="screenshot-url">solarai · live dashboard</span>
+              </div>
+              <div class="screenshot-slider" id="slider-solarai">
+                <div class="screenshot-slides">
+                  <img src="Screenshots/Screenshot 2026-07-08 150542.png" alt="SolarAI Dashboard" class="screenshot-img" onclick="openLightbox('slider-solarai',0)"/>
+                  <img src="Screenshots/Screenshot_8-7-2026_151139_localhost.jpeg" alt="SolarAI Alerts" class="screenshot-img" onclick="openLightbox('slider-solarai',1)"/>
+                  <img src="Screenshots/Screenshot 2026-09-19 164511.png" alt="SolarAI Alerts" class="screenshot-img" onclick="openLightbox('slider-solarai',2)"/>
+                  <img src="Screenshots/Screenshot 2026-09-19 164433.png" alt="SolarAI Alerts" class="screenshot-img" onclick="openLightbox('slider-solarai',3)"/>
+                </div>
+                <button class="slider-btn slider-btn--prev" onclick="slideManual('slider-solarai',-1)">&#8249;</button>
+                <button class="slider-btn slider-btn--next" onclick="slideManual('slider-solarai',1)">&#8250;</button>
+                <div class="slider-dots">
+                  <button class="slider-dot active" onclick="slideTo('slider-solarai',0)"></button>
+                  <button class="slider-dot" onclick="slideTo('slider-solarai',1)"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+<!-- Dourouss -->
+<article class="project reveal">
+  <div class="project__content">
+    <div class="project__header">
+      <div>
+        <div class="project__badge project__badge--purple"><i data-lucide="briefcase" style="width:11px;height:11px"></i>Professional · Badis AI</div>
+        <h3 class="project__title2 arabic-title">منصة دروس</h3>
+        <p class="project__subtitle">School Management & E-Learning Platform</p>
+      </div>
+      <div class="project__links">
+        <span class="project__confidential"><i data-lucide="lock" style="width:13px;height:13px"></i>Proprietary</span>
+      </div>
+    </div>
+    <p class="project__desc">A complete school management platform with three portals — students access grades, bulletins, quizzes, homework, and lessons; teachers manage content and take attendance with auto-calculated bulletins; administrators have a full school overview.</p>
+    <div class="project__highlights-row">
+      <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Student portal — grades, bulletin, quizzes, homework, lessons</div>
+      <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Teacher portal — content management, attendance, auto-calculated bulletins</div>
+      <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Admin dashboard — full school overview and management</div>
+    </div>
+    <div class="project__role-line"><i data-lucide="user" style="width:13px;height:13px"></i><span>Full-Stack Developer</span></div>
+    <div class="skill-tags">
+      <span class="skill-tag">Next.js</span><span class="skill-tag">Flask</span>
+      <span class="skill-tag">PostgreSQL</span><span class="skill-tag">Python</span>
+    </div>
+  </div>
+  <div class="project__screenshot">
+    <div class="screenshot-frame">
+      <div class="screenshot-bar">
+        <div class="screenshot-dots"><span></span><span></span><span></span></div>
+        <span class="screenshot-url">دروس · platform</span>
+      </div>
+      <div class="screenshot-slider" id="slider-dourouss">
+        <div class="screenshot-slides">
+          <img src="Screenshots/screenshot-1783554652960.png"  alt="دروس 1"  class="screenshot-img" onclick="openLightbox('slider-dourouss',0)"/>
+          <img src="Screenshots/screenshot-1783554703463.png"  alt="دروس 2"  class="screenshot-img" onclick="openLightbox('slider-dourouss',1)"/>
+          <img src="Screenshots/screenshot-1783554720347.png"  alt="دروس 3"  class="screenshot-img" onclick="openLightbox('slider-dourouss',2)"/>
+          <img src="Screenshots/screenshot-1783554745093.png"  alt="دروس 4"  class="screenshot-img" onclick="openLightbox('slider-dourouss',3)"/>
+          <img src="Screenshots/screenshot-1783554767907.png"  alt="دروس 5"  class="screenshot-img" onclick="openLightbox('slider-dourouss',4)"/>
+          <img src="Screenshots/screenshot-1783554562376.png"  alt="دروس 6"  class="screenshot-img" onclick="openLightbox('slider-dourouss',5)"/>
+          <img src="Screenshots/screenshot-1783554512797.png"  alt="دروس 7"  class="screenshot-img" onclick="openLightbox('slider-dourouss',6)"/>
+          <img src="Screenshots/Screenshot_9-7-2026_14642_lms.activmath.dz.jpeg"  alt="دروس 8"  class="screenshot-img" onclick="openLightbox('slider-dourouss',7)"/>
+          <img src="Screenshots/Screenshot_9-7-2026_14740_lms.activmath.dz.jpeg"  alt="دروس 9"  class="screenshot-img" onclick="openLightbox('slider-dourouss',8)"/>
+          <img src="Screenshots/screenshot-1783554434660.png" alt="دروس 10" class="screenshot-img" onclick="openLightbox('slider-dourouss',9)"/>
+        </div>
+        <button class="slider-btn slider-btn--prev" onclick="slideManual('slider-dourouss',-1)">&#8249;</button>
+        <button class="slider-btn slider-btn--next" onclick="slideManual('slider-dourouss',1)">&#8250;</button>
+        <div class="slider-counter" id="counter-slider-dourouss">1 / 10</div>
+      </div>
+    </div>
+    <!-- Note about mock data -->
+    <div class="screenshot-note" style="display:flex;align-items:center;gap:6px;margin-top:10px;font-size:0.8rem;color:#888;">
+      <i data-lucide="info" style="width:12px;height:12px"></i>
+      <span>Note: The data in these screenshots is mock/test data, not real individuals.</span>
+    </div>
+  </div>
+</article>
+<!-- SportsTrends -->
+<article class="project reveal">
+    <div class="project__content">
+        <div class="project__header">
+            <div>
+                <div class="project__badge project__badge--blue"><i data-lucide="trending-up" style="width:11px;height:11px"></i>NLP · AI · Full-Stack</div>
+                <h3 class="project__title">SportsTrends</h3>
+                <p class="project__subtitle">Arabic Sports Trends & Prediction Platform</p>
+            </div>
+           <div class="project__links">
+  <div class="gh-dropdown">
+    <button class="btn btn--sm btn--ghost gh-dropdown__toggle" onclick="toggleGhDropdown(this)">
+      <img src="icons/github2.png" alt="GitHub" style="width:19px; height:19px; margin-right:2px; vertical-align:middle; display:inline-block;">
+      GitHub
+      <i data-lucide="chevron-down" style="width:14px;height:14px;margin-left:2px"></i>
+    </button>
+    <div class="gh-dropdown__panel">
+      <a href="https://github.com/novuterapro/SportsTrends-Frontend" target="_blank" rel="noopener noreferrer" class="gh-dropdown__item">
+        <i data-lucide="layout-panel-left" style="width:15px;height:15px"></i>
+        <span>
+          <span class="gh-dropdown__item-title">Frontend</span>
+          <span class="gh-dropdown__item-sub">React repo</span>
+        </span>
+      </a>
+      <a href="https://github.com/novuterapro/SportsTrends-Backend" target="_blank" rel="noopener noreferrer" class="gh-dropdown__item">
+        <i data-lucide="server" style="width:15px;height:15px"></i>
+        <span>
+          <span class="gh-dropdown__item-title">Backend</span>
+          <span class="gh-dropdown__item-sub">FastAPI repo</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+        </div>
+        <p class="project__desc">A full-stack intelligent platform that analyzes Arabic sports news and YouTube content, extracts trends, generates statistics, and predicts future sports events using an end-to-end Arabic NLP pipeline and an AI-driven prediction engine.</p>
+        <div class="project__highlights-row">
+            <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>End-to-end Arabic NLP pipeline — AraBERT, CAMeL Tools, Stanza</div>
+            <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Trend analysis combining embeddings, time-series statistics & entity extraction</div>
+            <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>AI prediction engine with multi-metric confidence scoring</div>
+        </div>
+        <div class="project__role-line"><i data-lucide="user" style="width:13px;height:13px"></i><span>Backend Developer · NLP Engineer · Frontend Developer</span></div>
+        <div class="skill-tags">
+            <span class="skill-tag">FastAPI</span><span class="skill-tag">AraBERT</span><span class="skill-tag">CAMeL Tools</span>
+            <span class="skill-tag">React</span><span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Web Scraping</span><span class="skill-tag">Gemini API</span>
+        </div>
+    </div>
+    <div class="project__screenshot">
+        <div class="screenshot-frame">
+            <div class="screenshot-bar">
+                <div class="screenshot-dots"><span></span><span></span><span></span></div>
+                <span class="screenshot-url">sportstrends · trends</span>
+            </div>
+            <div class="screenshot-slider" id="slider-sportstrends">
+                <div class="screenshot-slides">
+                    <img src="Screenshots/Screenshot_7-8-2026_202111_localhost.jpeg" alt="SportsTrends 1" class="screenshot-img" onclick="openLightbox('slider-sportstrends',0)" />
+                    <img src="Screenshots/Screenshot_7-8-2026_201128_localhost.jpeg" alt="SportsTrends 2" class="screenshot-img" onclick="openLightbox('slider-sportstrends',1)" />
+                    <img src="Screenshots/Screenshot_7-8-2026_194322_localhost.jpeg" alt="SportsTrends 3" class="screenshot-img" onclick="openLightbox('slider-sportstrends',2)" />
+                    <img src="Screenshots/Screenshot 2026-08-07 201550.png" alt="SportsTrends 4" class="screenshot-img" onclick="openLightbox('slider-sportstrends',3)" />
+                </div>
+                <button class="slider-btn slider-btn--prev" onclick="slideManual('slider-sportstrends',-1)">&#8249;</button>
+                <button class="slider-btn slider-btn--next" onclick="slideManual('slider-sportstrends',1)">&#8250;</button>
+                <div class="slider-counter" id="counter-slider-sportstrends">1 / 4</div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+        <!-- Herfty -->
+        <article class="project reveal">
+          <div class="project__content">
+            <div class="project__header">
+              <div>
+                <div class="project__badge project__badge--orange"><i data-lucide="graduation-cap" style="width:11px;height:11px"></i>Bachelor Final Year Project</div>
+                <h3 class="project__title">Herfty</h3>
+                <p class="project__subtitle">E-Commerce Platform for Artisan Vendors</p>
+              </div>
+              <div class="project__links">
+  <div class="gh-dropdown">
+    <button class="btn btn--sm btn--ghost gh-dropdown__toggle" onclick="toggleGhDropdown(this)">
+      <img src="icons/github2.png" alt="GitHub" style="width:19px; height:19px; margin-right:2px; vertical-align:middle; display:inline-block;">
+      GitHub
+      <i data-lucide="chevron-down" style="width:14px;height:14px;margin-left:2px"></i>
+    </button>
+    <div class="gh-dropdown__panel">
+      <a href="https://github.com/novuterapro/Herfty-Backend" target="_blank" rel="noopener noreferrer" class="gh-dropdown__item">
+        <i data-lucide="server" style="width:15px;height:15px"></i>
+        <span>
+          <span class="gh-dropdown__item-title">Backend</span>
+          <span class="gh-dropdown__item-sub">Spring Boot repo</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+            </div>
+            <p class="project__desc">An e-commerce platform connecting Algerian artisan vendors with customers. Built the full backend with secure authentication, product catalogue management, and order processing.</p>
+            <div class="project__highlights-row">
+              <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>RESTful APIs for product, order and user management</div>
+              <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>JWT role-based authentication — vendors and customers</div>
+              <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Optimized database schema for catalogue and orders</div>
+            </div>
+            <div class="project__role-line"><i data-lucide="user" style="width:13px;height:13px"></i><span>Backend Developer</span></div>
+            <div class="skill-tags">
+              <span class="skill-tag">Spring Boot</span><span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Spring Security</span><span class="skill-tag">RESTful APIs</span><span class="skill-tag">Java</span>
+            </div>
+          </div>
+          <div class="project__screenshot">
+  <div class="screenshot-frame">
+    <div class="screenshot-bar">
+      <div class="screenshot-dots"><span></span><span></span><span></span></div>
+      <span class="screenshot-url">herfty · marketplace</span>
+    </div>
+    <div class="screenshot-slider" id="slider-herfty">
+      <div class="screenshot-slides">
+        <img src="Screenshots/Screenshot_7-7-2026_222914_localhost.jpeg"  alt="Herfty 1"  class="screenshot-img" onclick="openLightbox('slider-herfty',0)"/>
+        <img src="Screenshots/1.jpg"  alt="Herfty 2"  class="screenshot-img" onclick="openLightbox('slider-herfty',1)"/>
+        <img src="Screenshots/1 (1).jpg"  alt="Herfty 3"  class="screenshot-img" onclick="openLightbox('slider-herfty',2)"/>
+        <img src="Screenshots/article2.jpg"  alt="Herfty 4"  class="screenshot-img" onclick="openLightbox('slider-herfty',3)"/>
+        <img src="Screenshots/commande2.jpg"  alt="Herfty 5"  class="screenshot-img" onclick="openLightbox('slider-herfty',4)"/>
+        <img src="Screenshots/evenement1.jpg"  alt="Herfty 6"  class="screenshot-img" onclick="openLightbox('slider-herfty',5)"/>
+      </div>
+      <button class="slider-btn slider-btn--prev" onclick="slideManual('slider-herfty',-1)">&#8249;</button>
+      <button class="slider-btn slider-btn--next" onclick="slideManual('slider-herfty',1)">&#8250;</button>
+      <div class="slider-counter" id="counter-slider-herfty">1 / 6</div>
+    </div>
+  </div>
+</div>
+        </article>
+<!-- E-Learning -->
+<article class="project reveal" style="display: block;">
+  <div class="project__content">
+    <div class="project__header">
+      <div>
+        <div class="project__badge project__badge--gray"><i data-lucide="book-open" style="width:11px;height:11px"></i>Academic Project</div>
+        <h3 class="project__title">E-Learning Platform</h3>
+        <p class="project__subtitle">Course Management System</p>
+      </div>
+      <div class="project__links">
+        <a href="https://github.com/novuterapro/Elearning-App" class="btn btn--sm btn--ghost">
+    <img src="icons/github2.png" alt="GitHub" style="width:19px; height:19px; margin-right:2px; vertical-align:middle; display:inline-block;">
+    GitHub
+  </a>
+      </div>
+    </div>
+    <p class="project__desc">A web-based e-learning system enabling users to register, authenticate, and manage courses through a server-rendered interface with full admin and instructor control.</p>
+    <div class="project__highlights-row">
+      <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Secure authentication and authorization with Spring Security</div>
+      <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Full CRUD course management for admins and instructors</div>
+      <div class="phighlight"><i data-lucide="check" style="width:13px;height:13px;color:var(--accent)"></i>Dynamic server-rendered pages with Thymeleaf</div>
+    </div>
+    <div class="project__role-line"><i data-lucide="user" style="width:13px;height:13px"></i><span>Full-Stack Developer</span></div>
+    <div class="skill-tags">
+      <span class="skill-tag">Spring Boot</span><span class="skill-tag">Thymeleaf</span>
+      <span class="skill-tag">MySQL</span><span class="skill-tag">Java</span><span class="skill-tag">HTML · CSS</span>
+    </div>
+  </div>
+</article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__eyebrow">Get in touch</p>
+      <h2 class="section__title">Let's work together</h2>
+      <p class="section__desc">Open to full-time positions, freelance projects, and collaborations. Drop me a message.</p>
+    </div>
+    <div class="contact__grid">
+      <div class="contact__left">
+        <a href="mailto:novutera.pro@email.com" class="contact__link reveal">
+          <div class="contact__link-icon">
+            <img src="icons/mail.svg" alt="Email" style="width:26px;height:24px" />
+          </div>
+          <div>
+            <span class="contact__link-label">Email</span>
+            <span class="contact__link-val">novutera.pro@email.com</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact__link-arrow">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="https://github.com/novuterapro" class="contact__link reveal" target="_blank">
+          <div class="contact__link-icon">
+            <img src="icons/github.svg" alt="GitHub" style="width:26px;height:24px" />
+          </div>
+          <div>
+            <span class="contact__link-label">GitHub</span>
+            <span class="contact__link-val">github.com/novuterapro</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact__link-arrow">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+      <form class="contact__form reveal" id="contactForm" action="https://formspree.io/f/xzezrnnq" method="POST">
+  <div class="form__row">
+    <div class="form__group">
+      <label class="form__label">Full name</label>
+      <input class="form__input" type="text" name="name" placeholder="Your name" required/>
+    </div>
+    <div class="form__group">
+      <label class="form__label">Email address</label>
+      <input class="form__input" type="email" name="email" placeholder="your@email.com" required/>
+    </div>
+  </div>
+  <div class="form__group">
+    <label class="form__label">Subject</label>
+    <input class="form__input" type="text" name="subject" placeholder="What is this about?"/>
+  </div>
+  <div class="form__group">
+    <label class="form__label">Message</label>
+    <textarea class="form__textarea" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+  </div>
+  <button class="btn btn--primary btn--full" type="submit" id="contactSubmit">
+    Send message
+  </button>
+  <p id="contactStatus" style="margin-top:10px;font-size:14px;"></p>
+</form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <span class="footer__copy">© 2026 Novutera</span>
+  </div>
+</footer>
+
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox__close" onclick="closeLightbox()">✕</button>
+    <button class="lightbox__btn lightbox__btn--prev" onclick="event.stopPropagation();lightboxNav(-1)">&#8249;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt=""/>
+    <button class="lightbox__btn lightbox__btn--next" onclick="event.stopPropagation();lightboxNav(1)">&#8250;</button>
+    <span class="lightbox__counter" id="lightboxCounter"></span>
+  </div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
+  <script src="script.js"></script>
+</body>
+</html>
